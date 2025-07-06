@@ -1,0 +1,2 @@
+#!/bin/bash
+/bin/python3 $HOME/.local/bin/sfid_/sfid.py  "$(bash $HOME/.local/bin/sfid_/mid.sh)"
