@@ -4,6 +4,7 @@ rm -rd $HOME/.local/bin/sfid_
 rm -rf $HOME/.local/bin/sfid
 
 cp -r ../sfid $HOME/.local/bin/sfid_
+rm -rf $HOME/.local/bin/sfid_/.git
 chmod u+x $HOME/.local/bin/sfid_/mid.sh
 mv $HOME/.local/bin/sfid_/sfid $HOME/.local/bin/sfid
 chmod u+x $HOME/.local/bin/sfid.sh
